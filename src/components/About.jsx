@@ -3,11 +3,12 @@ import { motion } from "framer-motion"
 
 const linkOptions = {
   initial:{
-    y:"100%",
+    scale:0.1,
     opacity: 1
   },
   whileInView:{
-    y:0,
+    scale:1,
+    y:1,
     opacity: 1
   },
   Transition:{
@@ -18,11 +19,11 @@ const linkOptions = {
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       
       <motion.ul {...linkOptions}>
 
-      <div className='text-white h-[500px] mt-[130px] flex flex-col' id='about'>
+      <div className='text-white sm:h-[500px] h-[600px] dm:h-[500px] mt-[130px] flex flex-col' id='about'>
         <span className='font-primary text-[30px] sm:text-[30px] md:text-[45px] font-bold'>01: About Me</span>
 
         <span className='font-primary text-[15px] sm:text-[17px] md:text-[20px] mt-[40px] mb-[30px] sm:leading-[21px] leading-[17px] md:leading-[25px]'>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.

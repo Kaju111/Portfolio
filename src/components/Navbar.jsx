@@ -62,7 +62,7 @@ const Navbar = () => {
                     </motion.ul>
 
 
-                    <div className='md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 2xl:grid 2xl:grid-cols-3 inset-x-0 bottom-6 absolute w-[80%] font-primary font-bold text-white sm:txet-[23px] md:text-[20px] gap-10 m-auto'>
+                    <div className='md:flex md:jusb lg:grid lg:grid-cols-3 2xl:grid 2xl:grid-cols-3 inset-x-0 bottom-6 absolute w-[80%] font-primary font-bold text-white sm:txet-[23px] md:text-[20px] gap-10 m-auto'>
                         <span className=''>saikiakaju275@gmail.com</span>
                         <span className='flex flex-row gap-4 justify-center'>
                             <a href="https://www.linkedin.com/in/kaju-saikia-568354289/"><FaLinkedinIn/></a>
@@ -71,6 +71,7 @@ const Navbar = () => {
                         </span>
                         <span className='flex justify-center'>©2023 Copyright by Kaju Saikia</span>
                     </div>
+
 
                     
                 </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 import About from './About'
 import Portfolio from './Portfolio'
+import Footer from './Footer'
 
 const linkOptions = {
   initial:{
@@ -13,7 +14,7 @@ const linkOptions = {
     opacity: 1
   },
   Transition:{
-    delay: 2,
+    delay: 1,
   }}  
 
 const Intro = () => {
@@ -21,7 +22,7 @@ const Intro = () => {
     <div>
           <motion.ul {...linkOptions}>
 
-        <div className='text-white mt-[270px] flex flex-col'>
+        <div className='text-white h-screen mt-[270px] flex flex-col'>
           <span className='font-section sm:leading-[80px] md:leading-[140px] leading-[80px] sm:text-[30px] md:text-[40px] text-[30px]'>Hi, my name is...</span>
           <span className='font-name sm:text-[140px] md:text-[200px] text-[80px]'>
             <h1 className='md:leading-[150px] leading-[60px] sm:leading-[110px]'>KAJU</h1>
@@ -33,6 +34,7 @@ const Intro = () => {
 
       <About/>
       <Portfolio/>
+      <Footer/>
     </div>
   )
 }
