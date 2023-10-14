@@ -4,6 +4,8 @@ import shose from './images/shose.jpeg'
 import {FaGithub} from "react-icons/fa"
 import {ImLink} from "react-icons/im"
 import mba from './images/mba.jpeg'
+import cars from "./images/Cars.png"
+import linktree from "./images/Linktree.png"
 
 const Portfolio = () => {
   return (
@@ -40,7 +42,7 @@ const Portfolio = () => {
 <div className='lg:h-[400px] lg:w-[550px]  md:h-[300] md:w-[400px] rounded-xl '>
 <h1 className='font-name text-[30px] sm:mt-[20px] md:mt-[30px]'>LinkTree Clone</h1>
   <h1 className='font-primary opacity-80 bg-[#222221] py-5 px-3 rounded-xl sm:mt-1 md:mt-3'>Full Stack Linktree Website with google authentication, Animations, Dynamic head, in the backend using Express and Node.js, integrating with MongoDB for database management, and securing the API endpoints.</h1>
-  <h1 className='mt-3 font-primary'>NextJs Node.js Express MongoDB Tailwind CSS</h1>
+  <h1 className='mt-3 font-primary'>NextJs Node.js Express MongoDB Tailwind</h1>
   <h1 className='flex gap-5 my-5'>
   <a href="https://github.com/Kaju111/Next-LinkTree"><FaGithub size={30}/> </a>
   <a href="https://github.com/Kaju111/LinkTree-backend"><FaGithub size={30}/> </a>
@@ -49,7 +51,7 @@ const Portfolio = () => {
 
 <div className='sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl'>
   <span>
-    <img src={shoppy} className=' lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-lg'/>
+    <img src={linktree} className=' lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-lg'/>
   </span>
 
 </div>
@@ -70,7 +72,7 @@ const Portfolio = () => {
 
 <div className='lg:h-[400px] lg:w-[550px]  md:h-[300] md:w-[400px] rounded-xl text-end'>
 <h1 className='font-name text-[30px] sm:mt-[20px] md:mt-[30px]'>Nike Store</h1>
-  <h1 className='font-primary opacity-80 bg-[#222221] py-5 px-3 rounded-xl sm:mt-1 md:mt-3'>This website for a demo nike srore.</h1>
+  <h1 className='font-primary opacity-80 bg-[#222221] py-5 px-3 rounded-xl sm:mt-1 md:mt-3'>This website for a demo nike store.</h1>
   <h1 className='mt-3 font-primary'>ReactJs+Vite Redux-Toolkit Tailwind</h1>
   <h1 className='flex gap-5 justify-end my-5'>
     <a href="https://github.com/Kaju111/Nike-store"><FaGithub size={30}/></a>
@@ -96,7 +98,7 @@ const Portfolio = () => {
 
 <div className='sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl'>
   <span>
-    <img src={shoppy} className=' lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-lg'/>
+    <img src={cars} className=' lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-lg'/>
   </span>
 
 </div>

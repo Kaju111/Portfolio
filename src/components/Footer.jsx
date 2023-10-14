@@ -2,6 +2,7 @@ import React from 'react'
 import {FaLinkedinIn} from "react-icons/fa"
 import {SiMinutemailer} from "react-icons/si"
 import {FaGithub} from "react-icons/fa"
+import {FaRegHandPointRight} from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -10,7 +11,14 @@ const Footer = () => {
         <h1 className='font-primary sm:text-[35px] text-[35px] md:text-[45px] font-bold'>Get in Touch!</h1>
         <h1 className='font-primary sm:text-[15px] text-[15px] md:text-[20px] w-[70%]  my-11 text-center'>My inbox is always open. Whether for a potential project or just to say hi, feel free to reach out to me!</h1>
         <a href="mailto:saikiakaju275@gmail.com">
-        <button className='font-primary text-[20px] border-2 text-amber-600 hover:bg-[#2F201C] hover:text py-4 px-8 font-semibold md:mb-0 sm:mb-6 mb-6'>Say Hello</button>
+        <button className='font-primary text-[20px] border-2 text-amber-600 hover:bg-[#2F201C] hover:text py-4 px-8 font-semibold '>Say Hello</button>
+        </a>
+
+        <a href="/blog">
+        <button className=' gap-5 border-2 px-7 py-3 rounded-full font-primary font-bold border-amber-600 flex items-center mt-[100px] hover:bg-amber-600 hover:text-white text-amber-600 duration-500'>
+         <h1>My Blog site </h1> 
+         <h1><FaRegHandPointRight/></h1>
+        </button>
         </a>
 
       </div>

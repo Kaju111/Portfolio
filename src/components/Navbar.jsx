@@ -40,7 +40,7 @@ const Navbar = () => {
             </span>   
 
             {nav && (
-            <div className='flex flex-col justify-center fixed top-0 left-0 w-full h-screen bg-[#6C3428] text-black'>
+            <div className='flex flex-col justify-center fixed top-0 left-0 w-full h-screen bg-amber-700 text-black'>
 
                     <motion.ul {...linkOptions}>
 
