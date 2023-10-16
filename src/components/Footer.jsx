@@ -14,13 +14,6 @@ const Footer = () => {
         <button className='font-primary text-[20px] border-2 text-amber-600 hover:bg-[#2F201C] hover:text py-4 px-8 font-semibold '>Say Hello</button>
         </a>
 
-        <a href="/blog">
-        <button className=' gap-5 border-2 px-7 py-3 rounded-full font-primary font-bold border-amber-600 flex items-center mt-[100px] hover:bg-amber-600 hover:text-white text-amber-600 duration-500'>
-         <h1>My Blog site </h1> 
-         <h1><FaRegHandPointRight/></h1>
-        </button>
-        </a>
-
       </div>
 
       <span className='text-amber-600 text-[15px] sm:txet-[15px] md:text-[20px] gap-6 font-primary md:flex md:justify-between pb-16 sm:pb-5 mt-14'>

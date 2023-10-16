@@ -3,7 +3,6 @@ import {motion} from "framer-motion"
 import About from './About'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
-import {FaRegHandPointRight} from "react-icons/fa"
 
 
 const linkOptions = {
@@ -22,12 +21,7 @@ const linkOptions = {
 const Intro = () => {
   return (
     <div>
-      <a href="/blog">
-        <button className=' gap-5 border-2 px-7 py-3 rounded-full font-primary font-bold border-amber-600 flex items-center mt-[100px] hover:bg-amber-600 hover:text-white text-amber-600 duration-500'>
-         <h1>My Blog site </h1> 
-         <h1><FaRegHandPointRight/></h1>
-        </button>
-        </a>
+      
           <motion.ul {...linkOptions}>
 
         <div className='text-white h-screen mt-[180px] flex flex-col'>
