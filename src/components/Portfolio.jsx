@@ -91,7 +91,8 @@ const Portfolio = () => {
   <h1 className='font-primary opacity-80 bg-[#222221] py-5 px-3 rounded-xl sm:mt-1 md:mt-3'>Using MongoDB for database management and pagination, search option provide</h1>
   <h1 className='mt-3 font-primary'>ReactJs MongoDB Tailwind CSS</h1>
   <h1 className='mb-5 my-5'>
-    <a href="https://github.com/Kaju111/Assignment"><FaGithub size={30}/></a>
+    <a href="https://github.com/Kaju111/car-frontend"><FaGithub size={30}/></a>
+    <a href="https://github.com/Kaju111/Car-store/blob/main/backend/data.json"><FaGithub size={30}/></a>
   </h1>
 </div>
 
