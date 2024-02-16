@@ -22,9 +22,9 @@ const Intro = () => {
   return (
     <div>
       <motion.ul {...linkOptions}>
-        <div className="text-white h-screen mt-[180px] flex flex-col">
+        <div className="text-white h-screen mt-[350px] flex flex-col">
           <span className="font-section sm:leading-[80px] md:leading-[140px] leading-[80px] sm:text-[30px] md:text-[40px] text-[30px]">
-            Hi,
+            Hi, my name is...
           </span>
           <span className="font-name sm:text-[140px] md:text-[200px] text-[80px]">
             <h1 className="md:leading-[150px] leading-[60px] sm:leading-[110px]">
