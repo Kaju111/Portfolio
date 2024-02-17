@@ -47,7 +47,7 @@ const Portfolio = () => {
               product and order management.
             </h1>
             <h1 className="mt-3 font-primary">
-              MongDB Express Nodejs Reactjs Stripe SASS
+              MongDB Express Nodejs Reactjs Stripe SASS Firebase
             </h1>
             <h1 className="flex gap-5 justify-end my-5">
               <a href="https://github.com/Kaju111/FULLSTACK-ECOMMERCE">
