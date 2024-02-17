@@ -21,7 +21,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <a href="https://server-frontend.vercel.app/">
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -84,7 +84,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <span>
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -104,7 +104,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <a href="https://shoppy-dashboard-seven.vercel.app/">
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -167,7 +167,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <span>
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -187,7 +187,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <a href="https://nike-store-saikiakaju275-gmailcom.vercel.app/">
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -246,7 +246,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <span>
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -266,7 +266,7 @@ const Portfolio = () => {
           <div className="sm-h[400px] sm:w-[550px] md:h-[400px] md:w-[550px] rounded-xl">
             <a href="https://mbachaiwala-psi.vercel.app/">
               <motion.div
-                whileHover={{ scale: 1.4, rotate: 360 }}
+                whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
                   rotate: -360,
@@ -275,7 +275,7 @@ const Portfolio = () => {
               >
                 <img
                   src={mba}
-                  className=" lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-lg"
+                  className=" lg:h-[350px] lg:w-[550px] md:h-[300px] md:w-[400px] rounded-xl"
                 />
               </motion.div>
             </a>
