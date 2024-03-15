@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
+import Eye from "./Eye";
 
 const linkOptions = {
   initial: {
@@ -38,6 +39,7 @@ const Intro = () => {
       </motion.ul>
 
       <About />
+      <Eye />
       <Portfolio />
       <Footer />
     </div>

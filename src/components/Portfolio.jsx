@@ -24,7 +24,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -87,7 +87,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -107,7 +107,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -170,7 +170,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -190,7 +190,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -249,7 +249,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: 7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >
@@ -269,7 +269,7 @@ const Portfolio = () => {
                 whileHover={{ scale: 1.4, rotate: -7 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -360,
+                  rotate: 0,
                   borderRadius: "100%",
                 }}
               >

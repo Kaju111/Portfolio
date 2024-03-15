@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between mt-6 ">
+      <div className="flex  justify-between  mt-6 ">
         <a href={"/"} className="text-white z-10 ">
           <SiHomeadvisor className="w-[80px] h-[80px]" />
         </a>
