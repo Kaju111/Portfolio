@@ -4,24 +4,38 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+}
+
+.gradiant-text {
+  overflow: hidden;
+  animation: typing-text steps(40) 3s infinite;
+}
+
+@keyframes typing-text {
+  from {
+    width: 50%;
   }
-  
-  html{
-    height: 100%;
-    width: 85%;
-    margin: auto;
+
+  to {
+    width: 100%;
   }
-  body{
-    background-color: black;
-    height: 100%;
-  }
-  
-  #root{
-    height: 100%;
-    width: 85%;
-    margin: auto;
-  }
-  
-  
+}
