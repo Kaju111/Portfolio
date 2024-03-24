@@ -22,7 +22,7 @@ const Project = () => {
               <a href="https://server-frontend.vercel.app/">
                 <img src={ecom} alt="shoppy" className="w-full h-auto" />
               </a>
-              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8 bg-[#222221]">
                 <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
                   E-Commerce
                 </h1>
@@ -52,7 +52,7 @@ const Project = () => {
                 <img src={drw} alt="shoppy" className="w-full h-auto" />
               </a>
 
-              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 ">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 bg-[#222221]">
                 <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
                   drawing
                 </h1>
@@ -83,7 +83,7 @@ const Project = () => {
               <a href="https://www.linkedin.com/posts/kaju-saikia-2706422a9_tech-react-node-mongo-express-cloudinary-activity-7167053279770624000-jOHR?utm_source=share&utm_medium=member_desktop">
                 <img src={social} alt="shoppy" className="w-full h-auto" />
               </a>
-              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8 bg-[#222221]">
                 <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
                   Social Media
                 </h1>
@@ -113,7 +113,7 @@ const Project = () => {
                 <img src={shoppy} alt="shoppy" className="w-full h-auto" />
               </a>
 
-              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 ">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 bg-[#222221]">
                 <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
                   dashboard
                 </h1>
@@ -143,8 +143,8 @@ const Project = () => {
               <a href="https://mbachaiwala-psi.vercel.app/">
                 <img src={mba} alt="shoppy" className="w-full h-auto" />
               </a>
-              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8">
-                <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px] py-5 px-3 rounded-xl mt-8 bg-[#222221]">
+                <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3 ">
                   Clone
                 </h1>
                 A landing page for a chai walla
@@ -170,7 +170,7 @@ const Project = () => {
                 <img src={shose} alt="shoppy" className="w-full h-auto" />
               </a>
 
-              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 ">
+              <h3 className="font-primary opacity-80 font-semibold text-[17px]  py-5 px-3 rounded-xl mt-8 bg-[#222221]">
                 <h1 className="uppercase font-bold text-[19px] text-white border-b mb-3">
                   nike store
                 </h1>

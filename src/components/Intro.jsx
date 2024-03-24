@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import About from "./About";
-import Portfolio from "./Portfolio";
 import Footer from "./Footer";
 import Project from "./Project";
 

@@ -21,7 +21,6 @@ const Particle = () => {
           color: {
             value: "#000000",
           },
-          image: "",
           position: "",
           repeat: "",
           size: "",
@@ -561,43 +560,7 @@ const Particle = () => {
             height: 0,
             width: 0,
           },
-          particles: {
-            shape: {
-              type: "images",
-              options: {
-                images: {
-                  src: "https://particles.js.org/images/cyan_amongus.png",
-                  width: 500,
-                  height: 634,
-                },
-              },
-            },
-            size: {
-              value: 70,
-            },
-            move: {
-              speed: 9,
-              outModes: {
-                default: "none",
-                right: "destroy",
-              },
-              straight: true,
-            },
-            zIndex: {
-              value: 0,
-            },
-            rotate: {
-              value: {
-                min: 0,
-                max: 360,
-              },
-              animation: {
-                enable: true,
-                speed: 10,
-                sync: true,
-              },
-            },
-          },
+
           position: {
             x: -5,
             y: 55,
