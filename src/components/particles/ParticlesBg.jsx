@@ -10,6 +10,7 @@ const Particle = () => {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
   return (
     <Particles
       id="tsparticles"
@@ -240,12 +241,12 @@ const Particle = () => {
                 value: 70,
               },
               zIndex: {
-                value: 50,
+                value: 10,
               },
             },
             z7500: {
               number: {
-                value: 30,
+                value: 130,
               },
               zIndex: {
                 value: 75,
@@ -264,7 +265,7 @@ const Particle = () => {
                 value: 40,
               },
               zIndex: {
-                value: 10,
+                value: 110,
               },
             },
           },
@@ -277,8 +278,8 @@ const Particle = () => {
               distance: 200,
               enable: false,
               rotate: {
-                x: 3000,
-                y: 3000,
+                x: 300,
+                y: 300,
               },
             },
             center: {
@@ -315,7 +316,7 @@ const Particle = () => {
             },
             random: false,
             size: false,
-            speed: 5,
+            speed: 1,
             spin: {
               acceleration: 0,
               enable: false,
